@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <!-- <link rel="icon" href="icon.png">   I REAL NEED TO CHANGE THIS ICON -->
+  <title>The ISB Mag</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="isbcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function(){
+
+          $(".abouttextdiv").toggle();
+
+            $(".aboutbutton").click(function(){
+              if ($(".about-hover").text() === "About"){
+                $(".about-hover").text('      About   ▾');
+              } else {
+              $(".about-hover").text('About');
+            }
+              $(".abouttextdiv").slideToggle(300);
+            });
+
+
+    });
+   </script>
+ </head>
+
+ <body>
+		   <img src='logo.png' alt="Logo" class="centeredlogo">
+       <div>
+            <p class="Desc"><br /><span id='Itcombines'>Your best source of school news, global news and more!</span><br /><br /><span id='Aboveall'>Next issue coming soon!</span></p>
+
+        </div>
+
+          <div class="aboutbutton">
+               <button class="about-hover color">About</button>
+           </div>
+           <div class="abouttextdiv" >
+                <p><u>Lead Designer and Author:</u><br /><br />Axel BRUNETTA (Grade 11)</p>
+            </div>
+            <div class="reportbutton">
+                 <a href='mailto:theisbmag@gmail.com'><button class="report-hover color">Submit news, tea 🍵<br /> or interesting ideas for articles</button></a>
+             </div>
+   </body>
+</html>

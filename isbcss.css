@@ -1,0 +1,150 @@
+@font-face {
+  font-family: SFUIDisplayBold;
+  src: url(SFUIDisplay-Heavy.ttf);
+}
+@font-face {
+  font-family: SFUIDisplayMedium;
+  src: url(SFUIDisplay-Medium.ttf);
+}
+
+body
+{
+
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+
+.Desc {
+  margin-top: -100px;
+  font-family: SFUIDisplayBold;
+  text-align: center;
+  font-size: 20px;
+  white-space:pre;
+  color: white;
+  opacity: 0.8;
+}
+#Itcombines{
+  font-size: 15px;
+}
+#Aboveall{
+  font-size: 18px;
+
+}
+.centeredlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 30%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+.aboutbutton {
+    text-align: center;
+}
+
+
+.about-hover {
+    width: 200px;
+    font-size: 16px;
+    font-family: SFUIDisplayBold;
+    white-space:pre;
+    color: #8b1e7b;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.about-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.about-hover:focus {
+    outline: none;
+}
+
+.about-hover.color {
+    background-image: linear-gradient(to right, #F6F5F6, #F6EAFF, #F6EAFF, #F6F5F6);
+    box-shadow: 0px 13px 15px -9px rgba(255, 255, 255, 0.3);
+}
+.abouttextdiv{
+  font-size: 16px;
+  font-family: SFUIDisplayMedium;
+  white-space:pre;
+  color: white;
+  opacity: 0.8;
+  text-align:center;
+
+
+}
+
+
+.reportbutton {
+    text-align: center;
+}
+
+
+.report-hover {
+    width: 300px;
+    font-size: 16px;
+    font-family: SFUIDisplayBold;
+    white-space:pre;
+    color: #8b1e7b;
+    cursor: pointer;
+    margin: 20px;
+    height: 80px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.report-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.report-hover:focus {
+    outline: none;
+}
+
+.report-hover.color {
+    background-image: linear-gradient(to right, #F6F5F6, #F6EAFF, #F6EAFF, #F6F5F6);
+    box-shadow: 0px 13px 15px -9px rgba(255, 255, 255, 0.3);
+}
