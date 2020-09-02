@@ -10,6 +10,7 @@
       $(document).ready(function(){
 
           $(".abouttextdiv").toggle();
+          $(".phototextdiv").toggle();
 
             $(".aboutbutton").click(function(){
               if ($(".about-hover").text() === "About"){
@@ -20,26 +21,51 @@
               $(".abouttextdiv").slideToggle(300);
             });
 
+            $(".photobutton").click(function(){
+              if ($(".photo-hover").text() === "Artist of the month"){
+                $(".photo-hover").text('      Artist of the month   ▾');
+              } else {
+              $(".photo-hover").text('Artist of the month');
+            }
+              $(".phototextdiv").slideToggle(300);
+              $(".submitartworkbutton").slideToggle(300);
+
+            });
+
 
     });
    </script>
  </head>
 
  <body>
-		   <img src='logo.png' alt="Logo" class="centeredlogo">
+		   <img src='logo2.png' alt="Logo" class="centeredlogo">
        <div>
             <p class="Desc"><br /><span id='Itcombines'>Your best source of school news, global news and more!</span><br /><br /><span id='Aboveall'>Next issue coming soon!</span></p>
 
         </div>
 
-          <div class="aboutbutton">
-               <button class="about-hover color">About</button>
-           </div>
-           <div class="abouttextdiv" >
-                <p><u>Lead Designer and Author:</u><br /><br />Axel BRUNETTA (Grade 11)</p>
-            </div>
+
             <div class="reportbutton">
-                 <a href='mailto:theisbmag@gmail.com'><button class="report-hover color">Submit news, tea 🍵<br /> or interesting ideas for articles</button></a>
+                 <a href='mailto:theisbmag@gmail.com?subject=Article Submisson'><button class="report-hover color">Submit news, tea 🍵<br /> or interesting ideas for articles</button></a>
              </div>
+
+             <div class="photobutton">
+                  <button class="photo-hover color">Artist of the month</button>
+              </div>
+              <div class="phototextdiv" >
+
+                   <p><u>What is 'Artist of the month'?</u><br /><br />Each month our jury (to be determined) chooses a theme for an art competition<br />where each student can participate by making a piece of art using the<br />medium/media of their choice. The winner will get the privilege to have their artwork<br />published on the first page of our magazine.<br /><br /><u>Last Month's Winner</u><br /><br />N.A.<br /><br /><u>This Month's Theme</u><br /><br />Efflorescence [ ef-luh-res-uhns ]<br />Def: The state or a period of flowering.<br /><br /><a href="mailto:theisbmag@gmail.com?subject=My Artwork">Submit your artwork</a></p>
+
+
+               </div>
+
+
+               <div class="aboutbutton">
+                    <button class="about-hover color">About</button>
+
+                </div>
+                <div class="abouttextdiv" >
+                     <p><u>Lead Designer and Author:</u><br /><br />Axel BRUNETTA (Grade 11)</p>
+                 </div>
    </body>
 </html>

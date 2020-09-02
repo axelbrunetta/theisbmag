@@ -20,6 +20,15 @@ html {
     overflow-y: scroll;
 }
 
+a {
+  text-decoration: none;
+  font-family: SFUIDisplayBold;
+
+}
+a:hover {
+
+  color: white;
+}
 
 .Desc {
   margin-top: -100px;
@@ -28,7 +37,7 @@ html {
   font-size: 20px;
   white-space:pre;
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 #Itcombines{
   font-size: 15px;
@@ -60,14 +69,14 @@ html {
 
 
 .about-hover {
-    width: 200px;
+    width: 300px;
     font-size: 16px;
     font-family: SFUIDisplayBold;
     white-space:pre;
     color: #8b1e7b;
     cursor: pointer;
     margin: 20px;
-    height: 55px;
+    height: 70px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
@@ -147,4 +156,59 @@ html {
 .report-hover.color {
     background-image: linear-gradient(to right, #F6F5F6, #F6EAFF, #F6EAFF, #F6F5F6);
     box-shadow: 0px 13px 15px -9px rgba(255, 255, 255, 0.3);
+}
+
+.photobutton {
+    text-align: center;
+}
+
+
+.photo-hover {
+    width: 300px;
+    font-size: 16px;
+    font-family: SFUIDisplayBold;
+    white-space:pre;
+    color: #8b1e7b;
+    cursor: pointer;
+    margin: 20px;
+    height: 70px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 10px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.photo-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.photo-hover:focus {
+    outline: none;
+}
+
+.photo-hover.color {
+    background-image: linear-gradient(to right, #F6F5F6, #F6EAFF, #F6EAFF, #F6F5F6);
+    box-shadow: 0px 13px 15px -9px rgba(255, 255, 255, 0.3);
+}
+
+
+
+.phototextdiv{
+  font-size: 16px;
+  font-family: SFUIDisplayMedium;
+  white-space:pre;
+  color: white;
+  opacity: 0.8;
+  text-align:center;
+
+
 }
