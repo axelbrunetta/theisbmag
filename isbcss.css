@@ -21,13 +21,14 @@ html {
 }
 
 a {
+  color: white;
   text-decoration: none;
   font-family: SFUIDisplayBold;
 
 }
 a:hover {
 
-  color: white;
+  color: #8b1e7b;
 }
 
 .Desc {
