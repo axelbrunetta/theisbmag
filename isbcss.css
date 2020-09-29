@@ -55,6 +55,8 @@ a:hover {
   margin-top: -60px;
   width: 30%;
   -webkit-width: 60%;
+  -moz-width: 60%;
+  -o-width: 60%;
 }
 
 * {
