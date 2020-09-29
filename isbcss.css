@@ -204,10 +204,8 @@ a:hover {
 
 
 .phototextdiv{
-  -webkit-font-size: 10px;
-  -moz-font-size: 10px;
-  -o-font-size: 10px;
-  font-size: 16px;
+
+  font-size: 13.5px;
   font-family: SFUIDisplayMedium;
   white-space:pre;
   color: white;
