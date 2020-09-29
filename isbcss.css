@@ -11,12 +11,9 @@ body
 {
 
   background-image: url('bg.jpg');
-  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100%;
+  -webkit-min-height: 100%;
 
 }
 html {
